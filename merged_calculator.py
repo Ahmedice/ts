@@ -235,6 +235,9 @@ if st.session_state.lang == "ar":
         [data-testid="stSidebar"] .stRadio > label {
             text-align: right;
         }
+        table th, table td {
+            text-align: right !important; /* Force right alignment */
+        }
         </style>
         """,
         unsafe_allow_html=True
